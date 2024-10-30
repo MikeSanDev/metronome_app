@@ -15,6 +15,12 @@ export default function Home() {
             <input type="range" min="20" max="280" step="1" className="slider"></input>
             <div className="adjust-tempo increase-tempo">+</div>
           </div>
+          <div className="start-stop">START</div>
+          <div className="measures">
+            <div className="subtract-beats stepper">-</div>
+            <div className="measure-count"> 4 </div>
+            <div className="add-beats stepper">+</div>
+          </div>
 
         </div>
       </div>
