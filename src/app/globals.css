@@ -34,4 +34,29 @@ body {
     width: 100%;
     text-align: center;
     color: #fa545c;
+    font-weight: bold;
+}
+
+.bpm-display .tempo {
+    font-size: 4em;
+}
+
+.tempo-text {
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tempo-settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tempo-settings .adjust-tempo-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
 }

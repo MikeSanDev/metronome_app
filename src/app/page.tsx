@@ -11,9 +11,9 @@ export default function Home() {
           </div>
           <div className="tempo-text">Super Fast</div>
           <div className="tempo-settings">
-            <div className="adjust-tempo decrease-tempo">-</div>
+            <div className="adjust-tempo-btn decrease-tempo">-</div>
             <input type="range" min="20" max="280" step="1" className="slider"></input>
-            <div className="adjust-tempo increase-tempo">+</div>
+            <div className="adjust-tempo-btn increase-tempo">+</div>
           </div>
           <div className="start-stop">START</div>
           <div className="measures">
