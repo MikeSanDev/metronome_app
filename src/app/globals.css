@@ -91,3 +91,32 @@ body {
 .start-stop:hover {
     background: #ff656c;
 }
+
+.measures {
+    display: flex;
+    justify-content: center;
+
+}
+
+.measures .stepper {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.measures .stepper:hover {
+    background: #ff656c;
+    color: #fff;
+}
+
+.measures .subtract-beats {
+    line-height: 16px;
+}
+
+.measures .add-beats {
+    line-height: 19px;
+}
