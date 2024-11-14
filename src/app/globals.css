@@ -76,13 +76,16 @@ body {
 }
 
 /* targets all input types with range aka slider */
+/* -webkit-appearance needs appearance:none for maximum coverage for all broswers */
 input[type=range] {
     -webkit-appearance: none;
+    appearance: none;
     background-color: transparent;
 }
 
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
+    appearance: none;
 }
 
 input[type=range]:focus {
@@ -91,6 +94,7 @@ input[type=range]:focus {
 
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
+    appearance: none;
     width: 16px;
     height: 16px;
     border-radius: 50%;
