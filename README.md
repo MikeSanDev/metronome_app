@@ -1,3 +1,6 @@
+I am creating a metronome app! I recently started picking up guitar and I noticed there are a bunch of differnt metronomes out there and wanted to make my own! I am currently learning the main functionality from a youtuber: 
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
