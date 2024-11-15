@@ -22,7 +22,7 @@ export default function Home() {
             <div className="measure-count"> 4 </div>
             <div className="add-beats stepper">+</div>
           </div>
-
+          <span className="beats-per-measure-text">Beats per measure</span>
         </div>
       </div>
     </>
