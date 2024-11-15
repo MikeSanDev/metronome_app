@@ -1,4 +1,6 @@
-I am creating a metronome app! I recently started picking up guitar and I noticed there are a bunch of differnt metronomes out there and wanted to make my own! I am currently learning the main functionality from a youtuber: 
+I am creating a metronome app! I recently started picking up guitar and I noticed there are a bunch of differnt metronomes out there and wanted to make my own! I am currently learning the main functionality from a youtuber: Music and Coding | https://www.youtube.com/@MusicandCoding
+
+After learning about how to create the functionality, I will add more of my own styling and add more functionality like color changes or adding multiple beats per measure, etc.
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
