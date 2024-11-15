@@ -5,7 +5,10 @@
 ### After learning about how to create the functionality, I will add more of my own styling and add more functionality like color changes or adding multiple beats per measure, etc.
 
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Tech Stack:
+Next.js
+HTML/CSS
+
 
 ## Getting Started
 
