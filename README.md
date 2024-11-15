@@ -1,8 +1,8 @@
 <H1>Mike's Metronome</H1>
 
-### I am creating a metronome app! I recently started picking up guitar and I noticed there are a bunch of differnt metronomes out there and wanted to make my own! I am currently learning the main functionality from a youtuber: Music and Coding | https://www.youtube.com/@MusicandCoding
+I am creating a metronome app! I recently started picking up guitar and I noticed there are a bunch of differnt metronomes out there and wanted to make my own! I am currently learning the main functionality from a youtuber: Music and Coding | https://www.youtube.com/@MusicandCoding
 
-### After learning about how to create the functionality, I will add more of my own styling and add more functionality like color changes or adding multiple beats per measure, etc.
+After learning about how to create the functionality, I will add more of my own styling and add more functionality like color changes or adding multiple beats per measure, etc. I will want to add a way to utilize AI for this as well. 
 
 
 Tech Stack:
