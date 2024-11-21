@@ -10,3 +10,9 @@ const measureCount = document.querySelector('.measure-count');
 
 let bpm = 140;
 let beatsPerMeasure = 4; 
+
+decreaseTempoBtn.addEventListener('click', () => {
+    bpm--;
+    tempoDisplay.textContent = bpm;
+    tempoSlider.value = bpm;
+});
