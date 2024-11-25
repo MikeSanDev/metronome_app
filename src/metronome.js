@@ -23,3 +23,10 @@ increaseTempoBtn.addEventListener('click', () => {
     tempoDisplay.textContent = bpm;
     tempoSlider.value = bpm;
 });
+
+tempoSlider.addEventListener('input', () => {
+    bpm = tempoSlider.value;
+    tempoDisplay.textContent = bpm;
+    tempoSlider.value = bpm;
+});
+
