@@ -30,3 +30,13 @@ tempoSlider.addEventListener('input', () => {
     tempoSlider.value = bpm;
 });
 
+subtractBeats.addEventListener('click',  () => {
+    if (beatsPerMeasure <= 2) {return}; 
+    beatsPerMeasure--;
+    measureCount.textContent = beatsPerMeasure;
+});
+addBeats.addEventListener('click',  () => {
+    if (beatsPerMeasure >= 12) {return}; 
+    beatsPerMeasure++;
+    measureCount.textContent = beatsPerMeasure;
+});
