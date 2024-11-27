@@ -14,20 +14,17 @@ let beatsPerMeasure = 4;
 decreaseTempoBtn.addEventListener('click', () => {
     if(bpm <= 20) {return}
     bpm--;
-    tempoDisplay.textContent = bpm;
-    tempoSlider.value = bpm;
+    updateMetronome()
 });
 increaseTempoBtn.addEventListener('click', () => {
     if(bpm >= 280) {return}
     bpm++;
-    tempoDisplay.textContent = bpm;
-    tempoSlider.value = bpm;
+    updateMetronome()
 });
 
 tempoSlider.addEventListener('input', () => {
     bpm = tempoSlider.value;
-    tempoDisplay.textContent = bpm;
-    tempoSlider.value = bpm;
+    updateMetronome()
 });
 
 subtractBeats.addEventListener('click',  () => {
@@ -40,3 +37,8 @@ addBeats.addEventListener('click',  () => {
     beatsPerMeasure++;
     measureCount.textContent = beatsPerMeasure;
 });
+
+function updateMetronome() {
+    tempoDisplay.textContent = bpm;
+    tempoSlider.value = bpm;
+}
