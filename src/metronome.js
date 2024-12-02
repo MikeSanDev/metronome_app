@@ -42,3 +42,7 @@ function updateMetronome() {
     tempoDisplay.textContent = bpm;
     tempoSlider.value = bpm;
 }
+function validateTempo() {
+    if (bpm <= 20) {return};
+    if (bpm >= 280) {return};
+}
