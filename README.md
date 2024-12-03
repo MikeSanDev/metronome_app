@@ -1,4 +1,4 @@
-<H1>Mike's Metronome</H1>
+<H1>Michael's Metronome</H1>
 
 I am creating a metronome app! I recently started picking up guitar and I noticed there are a bunch of differnt metronomes out there and wanted to make my own! I am currently learning the main functionality from a youtuber: Music and Coding | https://www.youtube.com/@MusicandCoding
 
