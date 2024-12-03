@@ -14,17 +14,20 @@ let beatsPerMeasure = 4;
 decreaseTempoBtn.addEventListener('click', () => {
     if(bpm <= 20) {return}
     bpm--;
-    updateMetronome()
+    validateTempo();
+    updateMetronome();
 });
 increaseTempoBtn.addEventListener('click', () => {
     if(bpm >= 280) {return}
     bpm++;
-    updateMetronome()
+    validateTempo();
+    updateMetronome();
 });
 
 tempoSlider.addEventListener('input', () => {
     bpm = tempoSlider.value;
-    updateMetronome()
+    validateTempo();
+    updateMetronome();
 });
 
 subtractBeats.addEventListener('click',  () => {
