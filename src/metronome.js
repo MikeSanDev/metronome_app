@@ -10,6 +10,7 @@ const measureCount = document.querySelector('.measure-count');
 
 let bpm = 140;
 let beatsPerMeasure = 4; 
+let tempoTextString = 'Medium'
 
 decreaseTempoBtn.addEventListener('click', () => {
     if(bpm <= 20) {return}
@@ -44,6 +45,7 @@ addBeats.addEventListener('click',  () => {
 function updateMetronome() {
     tempoDisplay.textContent = bpm;
     tempoSlider.value = bpm;
+    tempoText.textContent = tempoTextString;
 }
 function validateTempo() {
     if (bpm <= 20) {return};
