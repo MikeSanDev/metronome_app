@@ -51,6 +51,9 @@ function updateMetronome() {
     if (bpm > 80 && bpm < 120) {tempoTextString = "Getting There"};
     if (bpm > 120 && bpm < 180) {tempoTextString = "Nice & Steady"};
     if (bpm > 180 && bpm < 220) {tempoTextString = "Rock n' Roll"};
+    if (bpm > 220 && bpm < 240) {tempoTextString = "Funky Stuff"};
+    if (bpm > 240 && bpm < 260) {tempoTextString = "Chill!!!"};
+    if (bpm > 260 && bpm < 280) {tempoTextString = "Shreddd it brahhh"};
     
 
     tempoText.textContent = tempoTextString;
