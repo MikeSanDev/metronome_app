@@ -8,6 +8,9 @@ const subtractBeats = document.querySelector('.subtract-beats');
 const addBeats = document.querySelector('.add-beats'); 
 const measureCount = document.querySelector('.measure-count'); 
 
+const click1 = new Audio('click1.mp3');
+const click2 = new Audio('click2.mp3');
+
 let bpm = 140;
 let beatsPerMeasure = 4; 
 let tempoTextString = 'Medium'
