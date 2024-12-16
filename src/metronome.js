@@ -11,6 +11,8 @@ const measureCount = document.querySelector('.measure-count');
 const click1 = new Audio('click1.mp3');
 const click2 = new Audio('click2.mp3');
 
+click1.play();
+
 let bpm = 140;
 let beatsPerMeasure = 4; 
 let tempoTextString = 'Medium'
