@@ -8,7 +8,8 @@ After learning about how to create the functionality, I will add more of my own 
 Tech Stack:
 Next.js
 HTML/CSS
-
+Javascript
+Next.js
 
 
 ## Getting Started
